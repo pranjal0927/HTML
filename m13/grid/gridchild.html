@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: blue;
+            height: 600px;
+            display: grid;
+
+            grid-template-columns: repeat(5, auto);
+            grid-template-rows: repeat(5, 200px);
+
+        }
+
+        .test {
+
+            background-color: brown;
+            border: 2px solid white;
+            font-size: 40px;
+        }
+        .abc{
+            background-color: green;
+            grid-area: 1/3/3/4;
+        }
+
+        
+
+</style>
+
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="test abc">1</div>
+        <div class="test">2</div>
+        <div class="test">3</div>
+        <div class="test">4</div>
+        <div class="test">5</div>
+        <div class="test">6</div>
+        <div class="test">7</div>
+        <div class="test">8</div>
+        <div class="test">9</div>
+    </div>
+
+</body>
+
+</html>

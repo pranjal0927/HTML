@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px black;
+}
+fieldset{
+
+    margin: 10px;
+    border-radius: 0px 20px 0px 20px;
+    }
+
+legend{
+    
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 0px 10px 0px 10px;
+    border: 2px black solid;
+}
+table{
+
+    width:1200px;
+}
+#Education{
+
+text-align: left;
+
+}   
+#work{
+    width:  1000px;
+    text-align: left;
+    
+}
+
+
+
+

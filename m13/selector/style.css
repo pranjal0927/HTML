@@ -1,0 +1,26 @@
+/* universal selector */
+
+*{
+
+    background: whitesmoke;
+padding: 0;
+    margin: 0;
+}
+
+
+
+.content,.content2
+{
+
+    text-align: center;
+color: brown;
+
+}
+
+
+p{
+
+    padding: 20px;
+    font-size: 20px;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div{
+        background-color: brown;
+        height: 300px;
+        width: 400px;
+        font-size: 40px;
+    }
+    h1{
+        background-color: blueviolet;
+        height: 100px;
+    }
+
+    @media screen and (min-width:0px) and (max-width:400px){
+        div{
+            background-color: yellow;
+            color: blue;
+        }   
+        h1{
+            background-color: yellowgreen;
+            color: rebeccapurple;
+        }
+    }
+    @media (min-width:401px) and (max-width:700px){
+        div{
+            background-color: orange;
+            color: brown;
+            height: 300px;
+            width: 200px;    
+        }
+
+        h1{
+            display: none;
+        }
+
+    }
+
+
+</style>
+
+
+</head>
+<body>
+        <div>
+            Media Query    
+        </div>
+        <h1> Hello World</h1>
+
+
+</body>
+</html>

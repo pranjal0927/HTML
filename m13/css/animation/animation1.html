@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .main{
+            text-align: center;
+        }
+
+        .abc{
+            
+            background-color: orange;
+            width: 100px;
+            height: 100px;
+            margin-top:100px;
+            margin-left: 10px;
+            display: inline-block;
+            border-radius: 50px;
+            animation: bubble 1s linear 1s infinite alternate;        
+            font-size: 80px;
+
+            font-family: fantasy; 
+       }
+
+        .one{
+            background-color:lightsalmon;
+            animation-duration: 0.8s;        
+            animation-delay: 1s;
+        }
+        .two{
+            background-color: lightblue;
+            animation-duration: 0.8s;        
+            animation-delay: 1.2s;
+        }
+        .three{
+            background-color:lightcoral;
+            animation-duration: 0.8s;        
+            animation-delay: 1s;
+        }   
+        .four{
+            background-color: lightgray;
+            animation-duration: 0.8s;        
+            animation-delay: 1.3s;
+
+        }
+        .five{
+            background-color: lightgoldenrodyellow;
+            animation-duration: 0.8s;        
+            animation-delay: 1s;
+
+        }
+        .six{
+            background-color: lightpink;
+            animation-duration: 0.8s;        
+            animation-delay: 1.4s;
+
+        }
+
+        @keyframes bubble {
+            0%{
+                transform:translateY(-100px);
+            }
+            100%{
+                transform: translateY(100px);
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+1
+    <div class="main">
+        <div class="abc one">G</div>
+        <div class="abc two">O</div>
+        <div class="abc three">O</div>
+        <div class="abc four">G</div>
+        <div class="abc five">L</div>
+        <div class="abc six">E</div>
+   
+   
+    </div>
+    
+
+
+</body>
+</html>
