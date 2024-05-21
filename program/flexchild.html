@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex child</title>
+    <style>
+        .container {
+            width: 900px;
+            height: 200px;
+            display: flex;
+            background-color: #414141;
+            column-gap: 20px;
+        }
+
+        .child {
+            width: 100px;
+            height: 100px;
+        }
+
+        .ab1 {
+            background: blue;
+        }
+
+
+
+        .ab2 {
+            background: green;
+            flex-shrink: 5;         /*flex-shrink: number;*/
+        }
+
+        .ab3 {
+            background: orange;
+            flex-grow: 2;
+            flex-grow: number;
+        }
+
+        .ab4 {
+            background: pink;
+            flex-grow: 4;
+        }
+
+        .ab5 {
+            background: yellow;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child ab1">Item 1</div>
+        <div class="child ab2">Item 2</div>
+        <div class="child ab3">Item 3</div>
+        <div class="child ab4">Item 4</div>
+        <div class="child ab5">Item 5</div>
+        <div class="child ab1">Item 1</div>
+        <div class="child ab2">Item 2</div>
+        <div class="child ab3">Item 3</div>
+        <div class="child ab4">Item 4</div>
+        <div class="child ab5">Item 5</div>
+
+    </div>
+
+
+</body>
+
+</html>

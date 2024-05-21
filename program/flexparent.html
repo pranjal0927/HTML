@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;               
+
+            display: flex;
+            /*flex-direction: row;                   /* row / colum / column-reverse / row-reverse*/
+            /*flex-wrap: wrap;                       /* wrap / nowrap / wrap-reverse */
+            flex-flow: row wrap ;                    /* flex-direction flex-wrap*/
+            justify-content: center;                 /* start/end/ center/ space-around/ space-between/ space-evenly*/
+            /* row-gap: 5px;
+            column-gap: 5px; */ 
+            /*gap: 5px 5px;  */                      /* row-gap column-gap*/                        
+            align-content:center;                    /* start/end/ center/ space-around/ space-between/ space-evenly*/
+        
+        
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            color: whitesmoke;
+            text-align: center;
+            background-color: red;
+        }
+        .c1{
+            background-color: blue;
+        }
+        .c2{
+            background-color: green;
+        }
+        .c3{
+            background-color: orange;
+        }
+        .c4{
+            background-color: violet;
+        }
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="child c1">Item 1</div>
+    <div class="child c2">Item 2</div>
+    <div class="child c3">Item 3</div>
+    <!-- <div class="child c4">Item 4</div>
+    <div class="child c5">Item 5</div> -->
+
+    <!-- <div class="child c1">Item 1</div>
+    <div class="child c2">Item 2</div>                  /* use for text-wrap */
+    <div class="child c3">Item 3</div>
+    <div class="child c4">Item 4</div>
+    <div class="child c5">Item 5</div>
+
+    <div class="child c1">Item 1</div>
+    <div class="child c2">Item 2</div>
+    <div class="child c3">Item 3</div>
+    <div class="child c4">Item 4</div>
+    <div class="child c5">Item 5</div>
+ -->
+
+</div>
+
+    
+</body>
+</html>

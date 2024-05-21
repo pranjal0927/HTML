@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 
-.header>p {
+.header>p { 
     font-size: 40px;
     color: black;
     align-self: start;

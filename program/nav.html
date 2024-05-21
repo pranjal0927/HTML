@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .navbar {
+        background: lightseagreen;
+        height: 100px;
+
+        display: grid;
+        grid-template-columns: repeat(5, 200px);
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .child {
+        color: white;
+        font-size: 20px;
+        /* text-decoration-line: 2px solid white;
+        text-decoration-style: dotted; */
+    }
+
+    .container{
+        height: 400px;
+        display: grid;
+        background: lightcoral;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .input{
+        background: burlywood;
+    }
+    .ab1
+    {
+        background: lightgreen;
+        align-self: start;
+        justify-self: center;
+    }
+    .ab2{
+        background: lightslategray;
+        align-self: flex-end;
+        justify-self: center;
+
+    }
+
+
+</style>
+
+<body>
+
+    <div class="navbar">
+        <div class="navlogo">
+            <h1>logo</h1>
+        </div>
+        <div class="child">Home</div>
+        <div class="child">Career</div>
+        <div class="child">Aboutus</div>
+        <div class="child">contact </div>
+    </div>
+
+    <div class="container">
+
+        <div class="input ab1">
+            <h1>2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo doloremque maxime nemo dignissimos magni quasi reprehenderit, optio dolor possimus beatae odio assumenda omnis repellat ipsam ut cupiditate odit quas?</p>
+
+        </div>
+        <div class="input ab2">
+            <h1>2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo doloremque maxime nemo dignissimos magni quasi reprehenderit, optio dolor possimus beatae odio assumenda omnis repellat ipsam ut cupiditate odit quas?</p>
+
+        </div>
+        <div class="input ab3">3</div>
+        <div class="input ab4">4</div>
+    </div>
+
+
+
+</body>
+
+</html>
